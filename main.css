@@ -1,0 +1,74 @@
+body{
+    font-family:'Roboto', sans-serif;
+}
+
+.navbar{
+    background-color: Chocolate;
+}
+
+#cabeçalho .nav .nav-link.active{
+    background-color: #fff;
+    color: Chocolate;
+}
+
+#cabeçalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover,
+.nav-unidade .nav-link.active:hover{
+    color: #fff;
+}
+
+.navbar-toggler{
+    background-color: #ffeeef;
+}
+
+.section-title {
+    font-family:'Pacifico', cursive;
+}
+
+#sobre,
+#cardapio{
+    background-color: #ffeeef;
+
+}
+
+.carousel-item img{
+    height: 100%;
+    max-height: 88vh;
+}
+
+.text-colored {
+    color: Chocolate;
+}
+
+.nav-cardapio .nav-link.active,
+#contato button,
+.nav-unidade .nav-link.active{
+    background-color: Chocolate;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover,
+.nav-unidade .nav-link:hover{
+    color: Chocolate;
+}
+
+.form-control{
+    border: 1px solid chocolate;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px){
+    .carousel-item img{
+        height: 280px;
+    }
+}

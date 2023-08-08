@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tapiocaria Da Vovó Dora | O melhor da comida nordestina</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabeçalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title" >Tapiocaria Da Vovó Dora</h1>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre o restaurante
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#cardapio" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Cardápio
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#local" class="nav-link">
+                            <i class="bi bi-geo-alt me-1"></i>
+                            Unidades
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contato" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabeçalho" data-bs-smooth-scroll="true"> 
+        <section id="sobre">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img class="w-100" src="images/images/crepe-sorvete.jpg" alt="Crepe de Sorvete">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/slide2.png" alt="Duas taças de vinho tinto">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/slide3.png" alt="Buffet do restaurante">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="w-100" src="images/images/tapioca-pessego.jpg" alt="Tapioca de pêssego">
+                    </div>
+                </div>
+                <button type="button" class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button type="button" class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="images/restaurante.jpg" class="d-block w-100 rounded" alt="Interior do restaurante">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">o restaurante</span></h2>
+                            <p>Bem-vindo à Tapiocaria Da Vovó Dora, onde a tradição encontra a modernidade em uma fusão deliciosa de sabores e experiências. Nosso cardápio variado é cuidadosamente preparado para satisfazer todos os paladares. Desfrute da experiência única da culinária nordestina e explore uma experiência gastronômica autêntica e contemporânea em um ambiente sofisticado e convidativo.</p>
+                            <h3 class="section-title">Sobre <span class="text-colored"> o espaço</span></h3>
+                            <p> Nossa atmosfera é um convite para os sentidos, com um design contemporâneo que harmoniza com elementos rústicos, criando um espaço acolhedor e sofisticado ao mesmo tempo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Para todas <span class="text-colored">as ocasiões</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <div class="carousel slide" data-bs-ride="carousel" id="carousel-evento">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="3000">
+                                    <img class="d-block w-100 rounded mb-2" src="images/eventos/aniversario.jpg" alt="Bolinhos de aniversário">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3000">
+                                    <img class="d-block w-100 rounded mb-2" src="images/eventos/casamento.jpg" alt="Mesas de casamento">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3000">
+                                    <img class="d-block w-100 rounded mb-2" src="images/eventos/confraternizacoes.jpg" alt="Pessoas brindando">
+                                </div>
+                            </div>
+                            <button type="button" class="carousel-control-prev" data-bs-target="#carousel-evento" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button type="button" class="carousel-control-next" data-bs-target="#carousel-evento" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carousel-evento" class="active" data-bs-slide-to="0"></button>
+                                <button type="button" data-bs-target="#carousel-evento" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#carousel-evento" data-bs-slide-to="2"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="fs-5">Oferecemos culinária excepcional e estrutura completa para eventos especiais. Espaços luxuosos e versáteis, ideais para aniversários, casamentos e eventos corporativos. Nossa equipe de eventos altamente profissional planeja e executa todos os detalhes, garantindo que seu evento seja marcado pela sofisticação. Nossos chefs talentosos criam pratos requintados, elaborados com ingredientes frescos e selecionados, oferecendo uma experiência gastronômica inigualável. Valorizamos cada evento e estamos comprometidos em superar expectativas, proporcionando momentos memoráveis. Evento íntimo ou grandioso, transformamos em extraordinário. Aguardamos por você!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cardapio" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Nosso <span class="text-colored">cardápio</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas" class="nav-link fw-bold text-start text-colored active">Bebidas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#acompanhamento" class="nav-link fw-bold text-start text-colored">Acompanhamentos</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#entrada" class="nav-link fw-bold text-start text-colored">Entradas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#pratos-principais" class="nav-link fw-bold text-start text-colored">Pratos principais</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesas" class="nav-link fw-bold text-start text-colored">Sobremesas</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="bebidas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="images/cardapio/bebidas/coca-cola.jpg" alt="Coca-Cola" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-5">Refrigerante</h5>
+                                        <p>Coca-Cola®, Coca-Cola Zero®, Sprite®, Fanta® Laranja, Guaraná Antarctica©</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/cardapio/bebidas/suco.jpg" alt="Suco de laranja" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-5">Sucos de Frutas</h5>
+                                        <p>Uma explosão refrescante, preparado com frutas frescas. Temos diversos sabores, todos naturais. </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/cardapio/bebidas/agua de coco.jpg" alt="Água de coco" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-5">Água de Coco Fresca</h5>
+                                        <p>Coco verde gelado, uma opção revigorante e saudável.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/cardapio/bebidas/vinho.jpg" alt="Garrafa e taça de vinho" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-5">Vinho</h5>
+                                        <p>Desenvolvemos vinhos para surpreender os seus sentidos. Exemplar equilibrado com taninos macios e bem integrados.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/cardapio/bebidas/cerveja.jpg" alt="Caneca de chopp" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-5">Chopp</h5>
+                                        <p>CHOPP BRAHMA (600ML)</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/images/suco.jpg" alt="Copo de drink em cima de uma tábua de madeira" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-5">Special Drinks</h5>
+                                        <p> Delicie-se com nossa seleção exclusiva de drinks artesanais.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="acompanhamento">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="images/cardapio/entradas/bolinho.jpg" alt="Bolinhos de macaxeira" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-5">Bolinho de Macaxeira com Queijo</h5>
+                                        <p>Bolinhos fritos de macaxeira recheados com queijo derretido, acompanhados de molho de pimenta.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/cardapio/entradas/french-fries-1351062_640.jpg" alt="Batata frita" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-5">Batata Frita</h5>
+                                        <p>Batatas crocantes, douradas e temperadas, perfeitas para compartilhar ou saborear sozinho.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/cardapio/entradas/cassava-558755_640.jpg" alt="Rolinhos de macaxeira frita" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-5">Macaxeira frita</h5>
+                                        <p>Macaxeira cortada em pedaços, frita até ficar dourada e servida com um toque de sal</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/cardapio/pratos/bratwurst-1120_640.jpg" alt="Purê de batatas com carne" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-5">Purê de batatas</h5>
+                                        <p>Purê aveludado de batatas, preparado com manteiga e temperos especiais, uma delícia reconfortante.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="entrada">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="images/cardapio/pratos/salmao.jpg" alt="Prato com salmão" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-5">Tártar de Salmão</h5>
+                                        <p>Salmão acompanhado de shoyo, azeite, cebolinha e finalizado com cream cheese, e gergelim.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/cardapio/entradas/entrada.jpg" alt="" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-5">Prato de frios</h5>
+                                        <p>Uma seleção de frios finos, queijos aromáticos e acompanhamentos cuidadosamente escolhidos.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/cardapio/entradas/salada.jpg" alt="Prato de salada ceasar" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-5">Salada Ceasar</h5>
+                                        <p>Clássica salada Caesar, com alface crocante, croutons, parmesão e molho cremoso.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/cardapio/entradas/ceviche.jpg" alt="Prato de ceviche" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-5">Ceviche de San Pieter</h5>
+                                        <p>Peixe fresco marinado em suco cítrico, acompanhado de cebola roxa, coentro e pimenta.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="pratos-principais">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="images/images/tapioca-frango.webp" alt="Tapioca de frango" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-5">Tapiocas Clássicas</h5>
+                                        <p>Tapiocas tradicionais, recheadas com combinações simples e saborosas para todos os gostos.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/images/tapioca-pessego.jpg" alt="Tapioca de pêssego" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-5">Tapiocas Especiais</h5>
+                                        <p> Tapiocas recheadas com ingredientes especiais e criativos, proporcionando uma explosão de sabores únicos.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/images/cuscuz.jpg" alt="Prato de cuscuz" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-5">Cuscuz com Carne de Sol na Nata</h5>
+                                        <p>Cuscuz nordestino delicadamente preparado, acompanhado da suculenta carne de sol na nata.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/images/tapioca-card.jpg" alt="Tapioca de morango com chocolate" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-5">Tapiocas Doces</h5>
+                                        <p>Tapiocas doces, recheadas com deliciosas combinações de frutas, chocolates e outros ingredientes irresistíveis.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/cardapio/pratos/pizza.jpg" alt="Pizza" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-5">Pizza</h5>
+                                        <p>Nossa pizza artesanal, com massa fina e crocante, feitas em nosso forno a lenha.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/cardapio/pratos/file-mignon-parmegiana-1200x675.jpg" alt="Prato de file mignon a parmegiana " class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-5">Parmegiana de Fillet Mignon </h5>
+                                        <p>Filé mignon macio e suculento, empanado e coberto com molho de tomate e queijo derretido.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="sobremesas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="images/images/crepe-sorvete.jpg" alt="Tapioca com sorvete" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-5">Pudim de Tapioca com Sorvete</h5>
+                                        <p>Pudim cremoso feito com tapioca e sorvete, regado com calda de chocolate.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/cardapio/sobremesas/cupcake.jpg" alt="Cupcakes" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-5">Cupcake</h5>
+                                        <p>Bolinhos fofos e decorados, perfeitos para um doce momento de indulgência.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/cardapio/sobremesas/bolo.jpg" alt="Pedaço de bolo" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-5">Bolo</h5>
+                                        <p>Nossos bolos frescos e saborosos, preparados com ingredientes de qualidade, ideais para celebrar momentos especiais.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/images/panqueca.jpg" alt="Panqueca de chocolate" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-5">Panqueca</h5>
+                                        <p>Delicie-se com nossa seleção irresistível de panquecas doces, perfeitas para adoçar seu dia.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/images/sobremesa.jpg" alt="Sobremesa de crepe" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-5">Sobremesa de crepe</h5>
+                                        <p>Crepe doce, recheado com uma variedade de opções deliciosas, para satisfazer seu desejo por algo açucarado.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/cardapio/entradas/creme-caramel-5130830_640.jpg" alt="Pudim com calda de caramelo" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-5">Pudim</h5>
+                                        <p>Pudim suave e sedoso, com sabor irresistível de caramelo, uma finalização perfeita para sua refeição.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="local" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Conheça <span class="text-colored">nossas unidades</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 pb-5">
+                        <nav class="nav nav-pills nav-unidade justify-content-center">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#recife" class="nav-link fw-bold text-colored active">Recife</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#fortal" class="nav-link fw-bold text-colored me-5 ms-5">Fortaleza</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#cg" class="nav-link fw-bold text-colored">Campina Grande</button>
+                        </nav>
+                    </div>
+                </div>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="recife">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="images/recife.jpg" alt="Interior do restaurante em Recife" class="d-block w-100 rounded mb-2">
+                            </div>
+                            <div class="col-md-6">
+                                <p class="fs-5">Nossa unidade em Recife é um verdadeiro oásis gastronômico, onde os sabores autênticos do Nordeste se encontram com a tradição da tapioca. Localizada estrategicamente no coração da cidade, nossa tapiocaria oferece um ambiente acolhedor e moderno, com decoração inspirada na rica cultura local. Cada tapioca é cuidadosamente preparada por nossos talentosos chefs, utilizando ingredientes frescos e locais, garantindo uma experiência culinária única que reflete a alma vibrante de Recife.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="fortal">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="images/fortal.jpg" alt="Interior do restaurante em Fortaleza" class="d-block w-100 rounded mb-2">
+                            </div>
+                            <div class="col-md-6">
+                                <p class="fs-5">Bem-vindo à nossa unidade em Fortaleza, onde o sol radiante encontra os deliciosos aromas da tapioca. Situada à beira-mar, nossa tapiocaria é um refúgio de sabor e relaxamento. Com uma atmosfera descontraída e praiana, os clientes podem desfrutar de tapiocas feitas sob medida, recheadas com uma variedade de ingredientes que celebram a rica culinária cearense. Cada mordida é uma viagem sensorial pela costa nordestina, capturando a essência da cidade e sua paixão pela boa comida.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="cg">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="images/cg.jpg" alt="Interior do restaurante em Campina Grande" class="d-block w-100 rounded mb-2">
+                            </div>
+                            <div class="col-md-6">
+                                <p class="fs-5">Em Campina Grande, nossa unidade é um verdadeiro ponto de encontro para os amantes da tapioca e da tradição nordestina. Localizada no coração da cidade, nossa tapiocaria combina charme rústico com toques contemporâneos. As tapiocas aqui são preparadas com maestria, incorporando os sabores autênticos da região e a hospitalidade característica de Campina Grande. Cada visitante é convidado a saborear uma jornada gastronômica que homenageia as raízes culturais da cidade e celebra a arte de transformar a mandioca em uma iguaria deliciosa.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="pb-5 pt-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="Nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Deixe sua mensagem</label>
+                                <textarea name="mensagem" class="form-control" id="mensagem"></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais</h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 me-1 ms-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço</h3>
+                            <p>Av. Pref. Severino Bezerra Cabral, 1050 - Catolé, Campina Grande - PB, 58410-900</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="p-3 fw-bold text-colored">
+        &copy; Todos os direitos reservados - Tapiocaria Da Vovó Dora | O melhor da comida nordestina 
+    </footer>
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
